@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap');
+
+body {
+    padding: 10%;
+    background-color: #EBD40E;
+}
+
+.calcBody {
+    width: 300px;
+    height: 350px;
+    padding: 2% 1%;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+}
+
+.calcDisplay {
+    width: 96%;
+    height: 15%;
+    margin: 1% 2%;
+    border-radius: 10px;
+    background-color: #E0E0E0;
+}
+
+.display {
+    padding: 5%;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.calcButtons {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.numberButtons {
+    width: 75%;
+    height: 90%;
+    padding: 3%;
+}
+
+.operatorButtons {
+    width: 25%;
+    height: 90%;
+    padding: 3% 2%;
+}
+
+.buttons {
+    width: 100%;
+    height: 25%;
+}
+
+button {
+    width: 30%;
+    height: 90%;
+    border-radius: 20%;
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.operator {
+    width: 90%;
+    height: 20%;
+    margin: 3% 0%;
+    border-radius: 15%;
+    font-weight: 500;
+}
+
+#result {
+    font-weight: 500;
+    background-color: #33F07D;
+}
+
+#clear {
+    color: #F7F7F7;
+    background-color: #0C95F0;
+}
+
+#info {
+    padding: 1%;
+    font-family: 'Lexend', sans-serif;
+    font-size: 11px;
+}
